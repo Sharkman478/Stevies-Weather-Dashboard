@@ -1,0 +1,28 @@
+.main {
+    background-color: white;
+}
+.header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+    background-color: navy;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.citysearch {
+    display: inline-block;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    font-size: 25px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    background-color: navy;
+    min-height: 80vh;
+    padding: 5px 5px 5px 5px;
+    border: 7px solid navy;
+    border-radius: 10px 10px 10px 10px;
+    
+}
