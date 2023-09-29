@@ -1,28 +1,56 @@
-.main {
+.body {
     background-color: white;
+    display: block;
 }
+
+.main {
+    display: inline-block;
+}
+
 .header {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 35px;
+    font-size: 50px;
     text-align: center;
     background-color: navy;
     color: white;
-    display: flex;
-    justify-content: center;
+    display: block;
+    padding: 20px 20px 20px 20px;
 }
+
 .citysearch {
     display: inline-block;
-    justify-content: flex-start;
-    align-content: flex-start;
-    align-items: flex-start;
     font-size: 25px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
     background-color: navy;
     min-height: 80vh;
-    padding: 5px 5px 5px 5px;
     border: 7px solid navy;
     border-radius: 10px 10px 10px 10px;
-    
+    max-width: 220px;
+    margin: 0px 0 0 0;
+}
+
+.currentday {
+    display: inline-block;
+    background-color: navy;
+    color: white;
+    min-width: 50px;
+    padding: 9px 9px 9px 9px;
+    font-size: 27px;
+    margin: 10px 0 0 0;
+    border: 7px solid navy;
+    border-radius: 15px 15px 15px 15px  
+}
+
+.forecast {
+    background-color: navy;
+    color: white;
+    display: block; 
+}
+
+.forecastcard {
+    background-color: navy;
+    color: white;
+    display: inline-block; 
 }
