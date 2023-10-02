@@ -5,6 +5,11 @@
 
 .main {
     display: inline-block;
+    background-color: navy;
+    font-size: 20px;
+    color: white;
+    border: 7px solid navy;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .header {
@@ -24,33 +29,22 @@
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
     background-color: navy;
-    min-height: 80vh;
+    min-height: 10vh;
     border: 7px solid navy;
     border-radius: 10px 10px 10px 10px;
     max-width: 220px;
     margin: 0px 0 0 0;
 }
 
-.currentday {
-    display: inline-block;
+#searchhistory {
+    display: inline;
+    font-size: 20px;
     background-color: navy;
+    font-family: 'Times New Roman', Times, serif;
     color: white;
-    min-width: 50px;
-    padding: 9px 9px 9px 9px;
-    font-size: 27px;
-    margin: 10px 0 0 0;
     border: 7px solid navy;
-    border-radius: 15px 15px 15px 15px  
+    border-radius: 15px 15px 15px 15px;
 }
-
-.forecast {
-    background-color: navy;
-    color: white;
-    display: block; 
-}
-
-.forecastcard {
-    background-color: navy;
-    color: white;
-    display: inline-block; 
+#searchhistorylist {
+    display: inline;
 }
